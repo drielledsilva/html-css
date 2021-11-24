@@ -1,0 +1,42 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+a:link, a:visited{
+	color: #d2691e;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#wrap{
+	width: 920px;
+	margin: auto;
+	background: #f5deb3;
+	padding: 10px 20px;
+}
+header nav ul{
+	list-style: none;
+	padding-left: 0;
+
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+header nav ul li a{
+	font-size: 18px;
+}
+#content{
+	float: left;
+	width: 660px;
+}
+#sidebar{
+	float: right;
+	width: 300px;
+}
+#sidebar ul{
+	list-style: none;
+}
+footer{
+	clear: both;
+}
