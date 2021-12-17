@@ -32,7 +32,7 @@ td a:hover {
     color: black;
 }
 
-thead {
+thead, tfoot {
     background-color: #4F4F4F;
     color: white;
 }
