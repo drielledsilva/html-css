@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+thead {
+    background-color: rgb(190, 190, 245);
+}
+
+.num {
+    text-align: right;
+}
+
+.porcentagem {
+    text-align: center;
+}
