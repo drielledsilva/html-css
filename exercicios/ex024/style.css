@@ -5,7 +5,7 @@ body {
 }
 
 caption {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     padding: 20px;
 }
@@ -23,17 +23,17 @@ td, th {
 
 td a {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
     padding: 2px 6px;
-    color: black;
+    color: #427272;
 }
 td a:hover {
     text-decoration: underline;
-    color: black;
+    color: 	#0000CD;
 }
 
 thead, tfoot {
-    background-color: #4F4F4F;
+    background-color: #5F9EA0;
     color: white;
 }
 
