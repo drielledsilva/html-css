@@ -44,3 +44,7 @@ thead, tfoot {
 .porcentagem {
     text-align: center;
 }
+
+tfoot > tr > td {
+    text-align: center;
+}
