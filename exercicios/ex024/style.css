@@ -32,7 +32,7 @@ td a:hover {
     color: 	#0000CD;
 }
 
-thead {
+thead, tfoot {
     background-color: #008080;
     color: white;
 }
@@ -43,11 +43,6 @@ thead {
 
 .porcentagem {
     text-align: center;
-}
-
-tfoot {
-    background-color: #008080;
-    color: black;
 }
 
 tfoot > tr > td {
