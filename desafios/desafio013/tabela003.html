@@ -27,6 +27,11 @@
             text-align: center;
         }
 
+        .th-secundario {
+            background-color: white;
+            color: black;
+        }
+
         th, td {
             border: 1px solid black;
             padding: 5px;
@@ -42,13 +47,13 @@
             <tr>
                 <th scope="col">Grupo</th>
                 <th scope="col">Nomes</th>
-                <th scope="col" colspan="3">Filmes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
             </tr>
         </thead>
 
         <tbody>
             <tr>
-                <td rowspan="3" style="text-align: center;"><strong>Mulheres</strong></td>
+                <th class="th-secundario" scope="rowgroup" rowspan="3">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -70,7 +75,7 @@
             </tr>
 
             <tr>
-                <td rowspan="3" style="text-align: center;"><strong>Homens</strong></td>
+                <th class="th-secundario" scope="rowgroup" rowspan="3">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
