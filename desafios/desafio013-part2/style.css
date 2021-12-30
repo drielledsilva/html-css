@@ -14,7 +14,7 @@ th, td {
     padding: 5px;
 }
 th {
-    background-color: rgb(77, 76, 76);
+    background-color: rgb(87, 85, 85);
     color: white;
 }
 
@@ -23,6 +23,6 @@ th {
 }
 
 .primeira-media > td, .segunda-media >td {
-    background-color: rgb(77, 76, 76);
+    background-color: rgb(87, 85, 85);
     color: white;
 }
