@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+th {
+    background-color: rgb(77, 76, 76);
+    color: white;
+}
+
+.th-secundario {
+    background-color: white;
+}
+
+.primeira-media > td, .segunda-media >td {
+    background-color: rgb(77, 76, 76);
+    color: white;
+}
