@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 - Inserindo JavaScript</title>
+    <script src="js/scripts.js" ></script> // o js vai ser executado antes do html ser carregado. Ele vai tentar modificar o h1 antes mesmo dele ser criado, o que vai gerar um erro
+</head>
+<body>
+    <script>
+        console.log("Script no body");
+    </script>
+    <h1>Teste</h1>
+    <script src="js/scripts2.js"></script> /* colocando o js no fim do body o html é carregado antes do script ser executado. todo o html vai estar preenchido e assim conseguimos manipular os elementos do mesmo. usado quando se tem a necessidade de alterar os elementos que vão ser criados */
+</body>
+</html>
