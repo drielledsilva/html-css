@@ -1,5 +1,7 @@
+// criando um array(lista)
 let lista = ['Laranja', 'Uva', 'Maçã', 'Banana', 'Abacaxi'];
 
+// criar no HTML uma ul(lista) a partir dos elementos do array
 let listaUl = document.createElement('ul');
 
 let body = document.getElementsByTagName('body');
