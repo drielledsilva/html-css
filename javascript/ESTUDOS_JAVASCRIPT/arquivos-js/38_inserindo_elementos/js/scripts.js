@@ -4,11 +4,14 @@ var el = document.createElement("div");
 
 el.classList = "div-criada";
 
+// classList acessa e adiciona classes
+
 console.log(el);
 
 var container = document.querySelector("#container");
 
 // inserindo elemento filho 
+// colocando a variável el dentro do container
 
 container.appendChild(el);
 
